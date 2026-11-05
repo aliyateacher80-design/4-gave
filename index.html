@@ -1,0 +1,90 @@
+<!-- 4-ТАҚЫРЫП: ҚАЗАҚ-ОРЫС ҚАРЫМ-ҚАТЫНАСТАРЫ -->
+<div id="topic4" class="topic-block" style="font-family: 'Segoe UI', Tahoma, sans-serif; background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%); padding: 25px; border-radius: 16px; box-shadow: 0 12px 30px rgba(30, 27, 75, 0.25); margin-top: 25px; color: #fff; border: 1px solid #4338ca;">
+    
+    <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #4f46e5; padding-bottom: 12px; margin-top: 0;">
+        <h2 style="color: #c7d2fe; margin: 0; font-size: 20px;">🐛 4-сабақ: Қазақ-орыс қарым-қатынастары (Bug Hunter)</h2>
+        <span style="background: #4f46e5; color: #fff; padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; animation: pulse 2s infinite;">Анимациялық квест</span>
+    </div>
+
+    <p style="color: #e0e7ff; margin-top: 15px; font-style: italic;"><b>Зерттеу сұрағы:</b> Неліктен Ресей Қазақстанды Азияға шығудың «кілті мен қақпасы» деп санады?</p>
+
+    <!-- Оқушы мәліметі -->
+    <div style="background: rgba(255, 255, 255, 0.08); padding: 15px; border-radius: 10px; margin-bottom: 20px; border: 1px solid rgba(255,255,255,0.15);">
+        <label style="color: #c7d2fe; font-weight: bold; font-size: 14px;">Оқушының аты-жөні:</label><br>
+        <input type="text" id="studentName4" placeholder="Аты-жөніңізді жазыңыз..." style="width: 100%; padding: 10px; margin-top: 6px; border: 1px solid #6366f1; border-radius: 6px; background: rgba(255,255,255,0.9); color: #000; font-size: 14px; outline: none;">
+    </div>
+
+    <!-- 🐛 BUG HUNTER: 1-БӨЛІМ -->
+    <div style="background: rgba(255, 255, 255, 0.05); padding: 18px; border-radius: 10px; margin-bottom: 15px; border-left: 5px solid #ec4899; transition: 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.09)'" onmouseout="this.style.background='rgba(255,255,255,0.05)'">
+        <h4 style="color: #f472b6; margin-top: 0;">🐞 1-қателік: Ішкі саяси жағдай [3 балл]</h4>
+        <p style="color: #f1f5f9;"><i>Төмендегі тұжырымда тарихи қате бар. Қатені тауып, дұрыс жауапты таңдаңыз:</i></p>
+        <div style="background: rgba(0,0,0,0.2); padding: 10px; border-radius: 6px; margin-bottom: 10px; color: #f8fafc; font-size: 13px;">
+            «XVIII ғасырдың басында қазақ хандықтарының сыртқы саясаты тоқтатылып, барлық көрші елдермен шекаралар жабық болды.»
+        </div>
+        <label style="cursor: pointer; display: block; margin: 5px 0;"><input type="radio" name="bug1" value="3"> Қате! Қазақ хандығы сыртқы саясат жүргізіп, Ресей, Жоңғар, Орта Азия хандықтарымен саяси-сауда қатынастарын жасады.</label>
+        <label style="cursor: pointer; display: block; margin: 5px 0;"><input type="radio" name="bug1" value="0"> Бұл тұжырым мүлдем қатесіз дұрыс.</label>
+    </div>
+
+    <!-- 🐛 BUG HUNTER: 2-БӨЛІМ -->
+    <div style="background: rgba(255, 255, 255, 0.05); padding: 18px; border-radius: 10px; margin-bottom: 15px; border-left: 5px solid #8b5cf6; transition: 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.09)'" onmouseout="this.style.background='rgba(255,255,255,0.05)'">
+        <h4 style="color: #a78bfa; margin-top: 0;">🔍 2-қателік: Геосаяси мақсат [4 балл]</h4>
+        <p style="color: #f1f5f9;"><i>Ресейдің Қазақстанды «Азияның кілті» санауының нақты себебін табыңыз:</i></p>
+        <label style="cursor: pointer; display: block; margin: 5px 0;"><input type="radio" name="bug2" value="4"> Қазақстан арқылы Азия елдеріне (Индістан, Қытай т.б.) шығатын сауда жолдарын бақылауға алу және әскери-саяси тірек жасау.</label>
+        <label style="cursor: pointer; display: block; margin: 5px 0;"><input type="radio" name="bug2" value="0"> Қазақ жеріне тек егін шаруашылығын дамыту үшін ғана қызықты.</label>
+    </div>
+
+    <!-- 🐛 BUG HUNTER: 3-БӨЛІМ -->
+    <div style="background: rgba(255, 255, 255, 0.05); padding: 18px; border-radius: 10px; margin-bottom: 15px; border-left: 5px solid #06b6d4; transition: 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.09)'" onmouseout="this.style.background='rgba(255,255,255,0.05)'">
+        <h4 style="color: #67e8f9; margin-top: 0;">⚙️ 3-қателік: Нәтиже мен баға [3 балл]</h4>
+        <p style="color: #f1f5f9;"><i>Алғашқы қарым-қатынастардың тарихи сипаты қандай еді?</i></p>
+        <label style="cursor: pointer; display: block; margin: 5px 0;"><input type="radio" name="bug3" value="3"> Сауда-саттық байланыстармен қатар, стратегиялық маңызы бар шекаралық аймақтардағы мүдделердің қақтығысымен сипатталды.</label>
+        <label style="cursor: pointer; display: block; margin: 5px 0;"><input type="radio" name="bug3" value="0"> Екі ел тек мәдениет алмасумен шектелді.</label>
+    </div>
+
+    <button onclick="calculateBugScore()" style="background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%); color: white; border: none; padding: 14px 24px; border-radius: 8px; cursor: pointer; font-weight: bold; width: 100%; font-size: 16px; box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4); transition: 0.3s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">🚀 Кибер-аңшы нәтижесін тексеру (10 балл)</button>
+
+    <div id="bugResult" style="margin-top: 20px; font-weight: bold; font-size: 18px; text-align: center; padding: 12px; border-radius: 8px;"></div>
+</div>
+
+<style>
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.6; }
+    100% { opacity: 1; }
+}
+</style>
+
+<script>
+    function calculateBugScore() {
+        const name = document.getElementById('studentName4').value.trim();
+        if(!name) {
+            alert("Өтінемін, оқушының аты-жөнін жазыңыз!");
+            return;
+        }
+
+        let score = 0;
+        
+        const b1 = document.querySelector('input[name="bug1"]:checked');
+        const b2 = document.querySelector('input[name="bug2"]:checked');
+        const b3 = document.querySelector('input[name="bug3"]:checked');
+
+        if(b1) score += parseInt(b1.value);
+        if(b2) score += parseInt(b2.value);
+        if(b3) score += parseInt(b3.value);
+
+        const resDiv = document.getElementById('bugResult');
+        resDiv.style.background = "rgba(0,0,0,0.3)";
+        resDiv.innerHTML = `🏆 Оқушы: ${name} <br>⭐ Bug Hunter ұпайы: ${score} / 10 балл`;
+        
+        if(score === 10) {
+            resDiv.style.color = "#4ade80";
+            resDiv.innerHTML += "<br>🌟 Керемет! Барлық тарихи қателер сәтті тазаланды!";
+        } else if(score >= 6) {
+            resDiv.style.color = "#fbbf24";
+            resDiv.innerHTML += "<br>👍 Жақсы нәтиже! Қателердің білігін жақсы таптыңыз.";
+        } else {
+            resDiv.style.color = "#f87171";
+            resDiv.innerHTML += "<br>💡 Тақырыпты қайта қарап, қателерді түзеп көріңіз!";
+        }
+    }
+</script>
